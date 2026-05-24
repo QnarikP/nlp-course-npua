@@ -1,0 +1,13 @@
+# Training outputs (checkpoints are large; regenerate with bert_sentiment_analysis.py)
+results/
+logs/
+plots/
+
+# Local Python environment (parent .gitignore also ignores venv/)
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Hugging Face cache (optional local downloads)
+.cache/
