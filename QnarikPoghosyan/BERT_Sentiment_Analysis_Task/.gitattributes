@@ -1,4 +1,3 @@
-# Normalize line endings on Windows/macOS/Linux
 * text=auto
 
 *.py text eol=lf

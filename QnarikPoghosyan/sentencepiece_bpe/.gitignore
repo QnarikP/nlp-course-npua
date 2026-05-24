@@ -1,0 +1,19 @@
+# Trained tokenizer artifacts (regenerate with training scripts)
+models/
+*.model
+*.vocab
+
+# Large / downloaded corpora
+data/
+corpus_cc100_50k.txt
+hy.txt.xz
+*.xz
+
+# Generated plots (regenerate with visualizations.py)
+visualizations/
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]

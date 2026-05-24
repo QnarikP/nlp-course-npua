@@ -1,13 +1,26 @@
-# Training outputs (checkpoints are large; regenerate with bert_sentiment_analysis.py)
+# Training outputs (large; regenerate with bert_sentiment_analysis.py)
 results/
+runs/
 logs/
-plots/
 
-# Local Python environment (parent .gitignore also ignores venv/)
+# Local data, models, vocab
+data/
+model/
+models/
+vocab/
+
+# Checkpoint / weight files
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# Python environments
 venv/
+venv_gpu/
 .venv/
 __pycache__/
 *.py[cod]
 
-# Hugging Face cache (optional local downloads)
+# Hugging Face cache
 .cache/

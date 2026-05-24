@@ -1,0 +1,12 @@
+{
+  "eval_loss": 0.4532819986343384,
+  "eval_accuracy": 0.9025229357798165,
+  "eval_f1": 0.9025279364776515,
+  "eval_runtime": 0.71,
+  "eval_samples_per_second": 1228.211,
+  "eval_steps_per_second": 39.438,
+  "epoch": 3.0,
+  "attempt": 0,
+  "seed": 42,
+  "device": "cuda"
+}
